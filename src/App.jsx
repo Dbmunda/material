@@ -16,9 +16,9 @@ export default function App() {
                     <Typography variant='h6'>Photo Ablum</Typography>
                 </Toolbar>
             </AppBar>
-            <main>
+            <main className={classes.maindb}>
                 <div className={classes.div1}>
-                    <Container maxWidth='sm' style={{backgroundColor:'pink' }}>
+                    <Container maxWidth='sm' style={{ }}>
                         <Typography variant='h2' align='center' color='textPrimary' gutterBottom>
                             Photo Album
                          </Typography>

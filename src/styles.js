@@ -2,10 +2,13 @@ import { CardContent } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
+   maindb:{
+      backgroundColor: theme.palette.background.paper,
+   },
    div1: {
       backgroundColor: theme.palette.background.paper,
       padding: theme.spacing(8, 0, 6),
-      border: '2px solid black'
+      // border: '2px solid black'
    },
    icon: {
       marginRight: '20px'
@@ -15,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
    },
    cardGrid: {
         padding: '20px 0',
-        backgroundColor: 'green',
+      //   backgroundColor: 'green',
+      // backgroundColor: theme.palette.background.paper,
    },
    card: {
          height:'100%',
